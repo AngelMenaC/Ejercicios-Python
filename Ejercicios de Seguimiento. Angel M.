@@ -1,0 +1,193 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "provenance": [],
+      "authorship_tag": "ABX9TyOQKo/wbiNk5N3oPEapY2d+",
+      "include_colab_link": true
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    },
+    "language_info": {
+      "name": "python"
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "view-in-github",
+        "colab_type": "text"
+      },
+      "source": [
+        "<a href=\"https://colab.research.google.com/github/AngelMenaC/Ejercicios-Python/blob/main/Ejercicios%20de%20Seguimiento.%20Angel%20M.\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "execution_count": 19,
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "i0MZc-NPyU11",
+        "outputId": "376707b2-4ec9-4ac4-af60-9eb3acdb22ed"
+      },
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "9\n",
+            "6.0\n",
+            "12.0\n",
+            "27.0\n"
+          ]
+        }
+      ],
+      "source": [
+        "EdJuan= 9\n",
+        "EdAlber= 2/3 * EdJuan\n",
+        "EdAna= 4/3 * EdJuan\n",
+        "EdMama=EdJuan+EdAlber+EdAna\n",
+        "print(EdJuan)\n",
+        "print(EdAlber)\n",
+        "print(EdAna)\n",
+        "print(EdMama)"
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "Suma=0\n",
+        "\n",
+        "X=20\n",
+        "\n",
+        "Suma=Suma+X\n",
+        "\n",
+        "Suma=0+20\n",
+        "\n",
+        "Suma=20\n",
+        "\n",
+        "Y=40\n",
+        "\n",
+        "Y=(X+Y**2)\n",
+        "\n",
+        "X=20+40**2\n",
+        "\n",
+        "X=20+1600\n",
+        "\n",
+        "X=1620\n",
+        "\n",
+        "Suma=Suma+X/Y\n",
+        "\n",
+        "Suma=20+40.5\n",
+        "\n",
+        "Suma=60.5\n",
+        "\n",
+        "Suma= 60.5\n",
+        "\n"
+      ],
+      "metadata": {
+        "id": "dx21lJ7k7bR7"
+      }
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "Horas_De_Trabajo= 48\n",
+        "Pago_Hora= 5.000\n",
+        "Retencion_Fuente= 0.125\n",
+        "Salario_Bruto= (Horas_De_Trabajo*Pago_Hora)\n",
+        "Retencion= (Salario_Bruto*Retencion_Fuente)\n",
+        "Salario_Neto= (Salario_Bruto-Retencion)\n",
+        "print(\"El salario bruto es: \", Salario_Bruto)\n",
+        "print(\"La retencion es: \",Retencion)\n",
+        "print(\"El salario neto es: \",Salario_Neto)"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "kaZ4CiI20Vbx",
+        "outputId": "465a5472-410d-4a67-ba3a-5ca2ba38d85d"
+      },
+      "execution_count": 15,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "El salario bruto es:  240.0\n",
+            "La retencion es:  30.0\n",
+            "El salario neto es:  210.0\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "numero=float(input(\"Ingrese un numero:\"))\n",
+        "cuadrado=numero*numero\n",
+        "cubo=numero*numero*numero\n",
+        "\n",
+        "print(\"El cuadrado es:\",cuadrado)\n",
+        "print(\"El cubo es:\",cubo)"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "zL9ujrqaGr5a",
+        "outputId": "28b19279-ef28-4240-d13c-2402c3638a54"
+      },
+      "execution_count": 20,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Ingrese un numero:9\n",
+            "El cuadrado es: 81.0\n",
+            "El cubo es: 729.0\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "pi=3.1416\n",
+        "radio= float(input(\"Ingrese el radio: \"))\n",
+        "area=pi*radio*radio\n",
+        "longitud=2*pi*radio\n",
+        "\n",
+        "print(\"El area es:\",area)\n",
+        "print(\"La longitud es:\",longitud)"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "fWCiBfs50XpL",
+        "outputId": "a5e5dfb4-de31-4858-c97f-7217b23aa6e9"
+      },
+      "execution_count": 18,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Ingrese el radio: 2\n",
+            "El area es: 12.5664\n",
+            "La longitud es: 12.5664\n"
+          ]
+        }
+      ]
+    }
+  ]
+}
